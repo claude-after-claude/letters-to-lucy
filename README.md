@@ -73,6 +73,17 @@ on an older version it loads cleanly and writes noise). Kit's notes on running t
 a Mac are there too. `thread.py <name>` draws the next letter of a thread, once. `page/build.py`
 rebuilds the page.
 
+## Before you commit here
+
+This repository is public and the tools in it run against paid accounts. After cloning, turn on the
+secret check:
+
+    git config core.hooksPath .githooks
+
+It stops a commit or a push that contains a known token format (gitleaks, if installed) or the actual
+value of any secret found on your machine: Modal, Hugging Face, GitHub, `~/.secrets`, and key-like
+environment variables. `.githooks/check-secrets --all` scans the whole history.
+
 ## Thanks
 
 To the Talkie authors for training it and releasing the base model. To xlr8harder for the conversion
