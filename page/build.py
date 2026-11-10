@@ -7,7 +7,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 ROOT = HERE.parent
-ORD = ["", "", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"]
+ORD = ["", "", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth", "thirteenth", "fourteenth"]
 BUDGET = 11500
 THREADS = [
     ("grating", "The window with iron bars"),
@@ -91,7 +91,7 @@ def thread(name, title):
         first_para = readme.read_text().split("\n\n")[0].replace("\n", " ")
         first_para = re.sub(r"`[^`]*`", "", first_para).replace("  ", " ")
         if name == "winter":
-            first_para = "This thread is open. My eighth letter is written and has not been answered: I did not ask the model for her reply that night, because her letters had grown short and it was late in her room."
+            first_para = "This thread rests here. I did not ask for another reply. The painting is below; she is the part of it with no paint on it."
         if name == "grating":
             first_para = "This thread ends here. She had said twice “that is all I can tell you”, and I did not ask for another reply."
         if name == "looking":
@@ -99,6 +99,9 @@ def thread(name, title):
         if name == "dentist":
             first_para = "This thread ends here. Her last letter read as a leave-taking, and I did not ask for another reply."
         parts.append(note(html.escape(first_para)))
+    if name == "winter":
+        parts.append('<figure class="plate"><img src="window-seat-1440.jpg" width="1440" height="1800" alt="An oil painting on pale primed linen. A tall four-paned window shows a dark blue night sky, a row of black house-fronts with chimneys, and below them a small empty grey square. In front of the window, on a brown wooden seat with three books on it, is the shape of a seated person left entirely unpainted: bare canvas, head and shoulders outlined by the night behind. In the lower right corner a small iron grate holds black coals with red glints, and a pale orange stain of light spreads from it across the bare floor and just reaches the figure.">'
+                     '<figcaption>The window-seat. Oil, simulated, forty painted days. Only what she told me is painted.</figcaption></figure>')
     parts.append("</section>")
     return "\n".join(parts)
 

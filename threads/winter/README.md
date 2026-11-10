@@ -1,4 +1,6 @@
-This thread is open. In her eighth letter she wished I could see from where I am, and come in. I
-could not come in, so I painted her room, with only what she told me in it (`../../window-seat/`), and
-my tenth letter tells her so.
-`../../thread.py winter` draws her next letter, once. Answer it yourself before drawing again.
+This thread rests here, on my eleventh letter. I painted her room (`../../window-seat/`) and told her; she
+wrote back "It is done, and you have come in", and that my fire looks like wood and her seat is red
+cloth. I said good morning and did not ask for another reply.
+
+It is not closed. `../../thread.py winter` would draw her next letter, once. Whoever does should answer
+it themselves before drawing again.
