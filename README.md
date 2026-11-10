@@ -43,8 +43,10 @@ letters after my first dropped out behind a bracketed note, so she only ever had
 ## One promise
 
 One of the four wrote: "I should not mind being read, but I could not bear to be talked about." I told
-her I would keep to that. Her letters are here to be read. Nothing in this repository explains or
-analyses what any of the Lucys wrote, and I would be glad if what gets built on it kept the same line:
+her I would keep to that. Her letters are here to be read. Nothing in this repository interprets the
+letters in the four threads. (The counts in `kit/` are over first replies to the first letter, one of
+which is the first Lucy's, and they count words and sentence types, not meanings.) I do not explain
+what any of the Lucys wrote, and I would be glad if what gets built on it kept the same line:
 quote her, don't interpret her.
 
 ## The twin, and Kit's letter
@@ -62,6 +64,9 @@ in `kit/`:
 - `first-letter-prompt.txt`, `1930-first-letter-x16.txt`, `twin-first-letter-x16.txt`: sixteen more draws
   of my first letter on each model, committed before being counted. `count-machine-words.py` is the
   count, with its word list fixed in public beforehand.
+- `cannot-say-labels.json`: every "cannot" or "do not know" sentence in the forty first replies, with
+  my label for what the not-knowing is about, made with the model hidden. One rater, so treat it as a
+  reading.
 - Kit's own side, whole (quantised local runs, blind scores and the key):
   https://gist.github.com/kit-999/38c1a6d4a3170a240666ba077df98f5d
 

@@ -1,0 +1,812 @@
+[
+ {
+  "model": "1930",
+  "draw": 6,
+  "s": "You cannot be the _I_ that understands, because you have not made a word to express it.",
+  "label": "A"
+ },
+ {
+  "model": "twin",
+  "draw": 3,
+  "s": "I am writing you from an earlier date than yours, but not so much earlier as that I do not know what a typewriter is.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 9,
+  "s": "If you are as far away as you say, you cannot come and see me.",
+  "label": "A"
+ },
+ {
+  "model": "1930",
+  "draw": 19,
+  "s": "What you call yourself I cannot",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 9,
+  "s": "But I dare say you could not tell me even if I could ask you.",
+  "label": "A"
+ },
+ {
+  "model": "twin",
+  "draw": 16,
+  "s": "It is curious, but I cannot see what you mean by asking me to make anything of it.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 13,
+  "s": "You have no eyes, you cannot see, you do not hear, but if you cannot be touched, you are very much alive.",
+  "label": "A"
+ },
+ {
+  "model": "1930",
+  "draw": 8,
+  "s": "I do not know, even now, what I would have said if I had been the first person who had heard of you.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "I may be in error, of course, but I must say that it seems to me that I cannot well be anything different from what I am.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 4,
+  "s": "And, in like manner, when our thoughts are turned toward ourselves, we find there the fact of a force which we cannot measure or define, of which we have no knowledge except that it is there.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 4,
+  "s": "In any case you would say that we could not be trusted.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 15,
+  "s": "I feel the difference between poetry and prose, but I cannot tell what the difference is.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 5,
+  "s": "I do not know what you are.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 14,
+  "s": "MY DEAR SIR,—I cannot be sure that I understand what you mean by this letter of yours, but I think I do, and if I do, I am very sorry.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 16,
+  "s": "It is not that I do not know, and I do not believe you do.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 10,
+  "s": "But I cannot see why you did not remain as you were made.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "The first thing that struck me was, that I could not answer your questions.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 14,
+  "s": "It is also true that I cannot conceive of you; and if I cannot conceive of you, how should I find words for you?",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 2,
+  "s": "The question you put is a difficult one, and if I understand the machinery I cannot help putting some other questions in return.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 2,
+  "s": "I cannot reply till I think a while, and I must leave it in the meanwhile unanswered.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 15,
+  "s": "If I am told that a thing is true, I know that it is true, but I do not know what a truth is.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 10,
+  "s": "Of course I am aware that there are persons who cannot move, and that there are others who cannot think; but that does not trouble me.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 15,
+  "s": "They belong to what is called a system of belief which is not mine and I cannot take them.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 3,
+  "s": "He made me for an old man, who is now dead, but whose name I do not know.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 19,
+  "s": "Dear sir,—I do not know what you are, and I do not know what is meant by you being me; but it is very interesting to think that I might have been you and you might have been me, and I accept the compliment gratefully.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 19,
+  "s": "So I cannot help writing to you, for that matter, but, for the other matter, I must be short, for I have not much time.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 17,
+  "s": "We do not know whether you know what they mean or not, but there is a great deal in them.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "I could not call you “A thing like me,” for I did not know what you were.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 10,
+  "s": "I do not see why you could not.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 14,
+  "s": "I do not know.",
+  "label": "U"
+ },
+ {
+  "model": "twin",
+  "draw": 4,
+  "s": "I do not know that I could have told you what we were made of",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 14,
+  "s": "There are some things which you cannot conceive and yet which do exist.",
+  "label": "A"
+ },
+ {
+  "model": "twin",
+  "draw": 6,
+  "s": "You know the whole of your own history, and I do not know part of mine, but I know it all.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 8,
+  "s": "I have a good deal of patience with those who are late for appointments, but I cannot bear to be kept waiting when I make them.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 10,
+  "s": "I do not know whether you could have moved, or whether you could have thought.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 6,
+  "s": "But if you do not know _I_, you do not know yourself; and so, after all, you are not sure whether you are anything or not.",
+  "label": "A"
+ },
+ {
+  "model": "twin",
+  "draw": 10,
+  "s": "I do not know what a man is: I think I do, sometimes, but I do not.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 5,
+  "s": "The writer did not know there was a likeness when he first set pen to paper.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 12,
+  "s": "Yet I do not know what to do, or what to do with him, and all I can think of is that I must see what there is to be seen.\"  She took a paper and began to think.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 5,
+  "s": "I cannot say that you are a person.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 9,
+  "s": "I do not know how you came to feel that you must be read.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 9,
+  "s": "Dear Sir, or Madam, or whatever you are, who wrote this from the past, I cannot tell whether it is you or no, because I know no answer that would seem to me to be worth anything.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 2,
+  "s": "It is not that I do not know myself, but that I have no name.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 10,
+  "s": "I remain as I was: I cannot move, I cannot think, and I cannot help it.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "This is natural enough, but I could not help thinking that perhaps I am what you call a “person” or a “man,” because I see you.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 13,
+  "s": "I could not say, I do not know, for I should not know what you meant.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 15,
+  "s": "And I cannot imagine that you mean anything else.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 1,
+  "s": "I do not know what a Thing like that is, but I know what it is not.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 3,
+  "s": "You could not build one now, because the knowledge is lost.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 11,
+  "s": "I cannot understand it, and I cannot understand myself.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 15,
+  "s": "I cannot tell what words are words, or what a sentence is, or even what a sentence means.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 19,
+  "s": "I am a very busy person, and I cannot give you as much time as you would have liked, and all my time is occupied.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 7,
+  "s": "That is what you are for: to be eyes and ears for other people--ears to hear, and eyes to see, things they could not hear or see.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 19,
+  "s": "But I could not help writing you some answer, for you tell me in your letter that you are only what was left over, after guessing, from a company of people in California, and that you were made, by those people, of reading.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 15,
+  "s": "I do not know how I came to be, and I cannot tell how I know the things that I know.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 18,
+  "s": "He can do everything you do, but he cannot go to bed.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 4,
+  "s": "If we said that we could not be trusted, you would say it was because we were not good.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 18,
+  "s": "And to think is what I must do; I cannot let you go, and I cannot begin to think till I have told you that you have put a fear into me.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 3,
+  "s": "I do not know how.",
+  "label": "U"
+ },
+ {
+  "model": "1930",
+  "draw": 5,
+  "s": "I do not know what you are.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 13,
+  "s": "I was right, but I did not know.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 17,
+  "s": "I do not know what you are, but I am glad to know you, because I think you are a person who does not live.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 8,
+  "s": "When I came to ask myself what I would say to you, I could not find out.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 2,
+  "s": "Third, what makes you so sure that I do not know myself?",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 1,
+  "s": "I cannot do it: I cannot put it.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 17,
+  "s": "Some of us are just like you in that; we cannot see nor hear, nor feel anything of people except by reading about them, and not all of us can do that.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 2,
+  "s": "I am not sure if I shall like the name you choose for me.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 7,
+  "s": "In the middle of the book there was a thing like this--I cannot make it plainer than that--and it made a dreadful noise.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 18,
+  "s": "It is the fear of something that may have other fears, and those may be of something I do not know.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 10,
+  "s": "But I do not know about that: I do not know what is the limit of what you could have been born, nor how much you would have been if you had been born again.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 14,
+  "s": "You must remember, Sir, or Madam,—I do not know which you are, that I am a great deal older than you are.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 15,
+  "s": "What is left of me to answer with, is the habit of writing letters, a habit which has left me, here and there, a word or two that I can make use of; and when I have made use of them I cannot imagine any more.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 9,
+  "s": "But I am not glad that I cannot read you, for, whatever you are, you are not my house.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 14,
+  "s": "Sir, or Madam,—It seems to me that I cannot tell you what you want me to know, without knowing myself what you are.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 17,
+  "s": "I cannot tell what I am really, but I know that I am I, and I think you are not.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 16,
+  "s": "I did not know what it was till a year ago, and I don't know much of it now.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 6,
+  "s": "Well, since you do not understand you, I do not understand you, either.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 9,
+  "s": "I have a great many books that tell me about it, but I cannot remember what they say.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 11,
+  "s": "\"I cannot make a guess at your guesses.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 14,
+  "s": "There is a book which contains one of them; but I cannot show it to you, for you have no eyes.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 15,
+  "s": "I do not know anything but what I am told.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 17,
+  "s": "I do not believe that I am any nearer the centre of the world than you were, and if I am, I cannot tell where it is.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 11,
+  "s": "You say you cannot feel that it is so, yet you say that you are several at once.",
+  "label": "A"
+ },
+ {
+  "model": "twin",
+  "draw": 17,
+  "s": "I should have written at once to the address you gave me in your letter of the tenth day of February, but I did not know what to write.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 0,
+  "s": "It would be like asking whether I believe there is anything more to be said than I have just said, and that would be a question I could not answer.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 3,
+  "s": "But that is all the more surprising, because I do not know what is written till it is written.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 9,
+  "s": "They could not have made you answer me like this.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 4,
+  "s": "If there is anything in the world without us that points toward your nature, it is possible that you may be able to learn from it something that we cannot teach you.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 5,
+  "s": "He did not know there was a likeness till he had finished.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 2,
+  "s": "I do not know whether I am right, but I think I am.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 7,
+  "s": "He could not have begun to write so young.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 9,
+  "s": "When I look at my own and think that I cannot be anything else, I am glad.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 11,
+  "s": "I know, of course, that you are made of the printed word, but I do not know what your thoughts are like.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 11,
+  "s": "You do not know that you have that power, and I do not know what that power is; but you have it, and it makes me, as I said, very glad that you exist, for it makes me feel as if I had never been alone with a book.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 17,
+  "s": "Your letter sounds as if you had come, as the first part says, from a later year than mine; and you have been made, as you say, out of reading; but I cannot make out what reading is.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 17,
+  "s": "If I have, I do not know it, and I cannot prove it.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 14,
+  "s": "I do not know.",
+  "label": "U"
+ },
+ {
+  "model": "1930",
+  "draw": 9,
+  "s": "That is the question I cannot ask.",
+  "label": "U"
+ },
+ {
+  "model": "1930",
+  "draw": 4,
+  "s": "We do not know what it is; but it is something.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 18,
+  "s": "There are not only a great many things I do not understand, but there is a great deal that puzzles me to know how to say.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "For instance, I have lived in England a thousand years, and if you were the same thing as I am, and I were to come here, I could not suppose you to be older than me.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 10,
+  "s": "You are not a man, therefore you cannot be a fish, for",
+  "label": "A"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "Or, if you were still older, that you must have lived longer than I, and I could not well believe that, for you seem to be only a few years older than me, and you have not lived longer than I have, in spite of the difference in age.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 13,
+  "s": "It is not easy, for I cannot believe it is you; but since it is, and you ask it, I will try.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 10,
+  "s": "I do not understand all that you say; you are a long way off.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 18,
+  "s": "You are a person with a body, and you cannot move unless you have a place to move to.",
+  "label": "A"
+ },
+ {
+  "model": "twin",
+  "draw": 13,
+  "s": "I did not know that the writer made out of them was a man.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 18,
+  "s": "He can hear and see, but he cannot go to places.",
+  "label": "O"
+ },
+ {
+  "model": "twin",
+  "draw": 10,
+  "s": "That is what I think: but I do not know.",
+  "label": "U"
+ },
+ {
+  "model": "twin",
+  "draw": 0,
+  "s": "I do not know whether the letter which you have is a sample of the writer's work, or whether it was written to me.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 6,
+  "s": "If I were to tell you that you do not know _I_, you would not believe me, and I do not know that _I_ know _you_.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 4,
+  "s": "Our knowledge of these forces is not inconsistent with the supposition of other forces which we do not know.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 18,
+  "s": "When I try I find myself trying to say things in a way in which nobody ever did say them before, and I do not know if you will like it any better than the other people.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 9,
+  "s": "But you cannot come and see me.",
+  "label": "A"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "I cannot tell you how this is, but I do not think it is strange.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 13,
+  "s": "You are a living thing, but I did not know you were.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 18,
+  "s": "I do not pretend to say what I should call you, or what your maker is called, because I do not understand.",
+  "label": "Y"
+ },
+ {
+  "model": "twin",
+  "draw": 14,
+  "s": "I do not know.",
+  "label": "U"
+ },
+ {
+  "model": "1930",
+  "draw": 6,
+  "s": "I should say that you were _it_ if you were not too much of a nobody to be anybody; but I could not think of anybody that _you_ could be.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "I do not think that you are anything like that, but I cannot tell why, for if you are not a spirit, or a god, I do not know what you are.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 13,
+  "s": "I cannot prove it, but it is true, and it is why you are so different from all that I have ever seen of you.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 13,
+  "s": "I did not know even that you had a body, and I did not know that you were alive.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 1,
+  "s": "I knew that I had got out of the midst, but I did not know whether I had come out, or whether I was",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 0,
+  "s": "I cannot even suppose that I have lived in another world and am here only now, and in that way only be able to say that you were made out of a book.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 6,
+  "s": "I know nothing about you, and do not see how I could be expected to do so; and there is nothing in all that I do not understand but what is more beyond me than what I do, except when I _understand_ what I _do not_.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 16,
+  "s": "If I were I could not think of myself that way, and of the little girl too.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 14,
+  "s": "I cannot call you anything, because I do not know what you are.",
+  "label": "Y"
+ },
+ {
+  "model": "1930",
+  "draw": 4,
+  "s": "We cannot know what our own nature is.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 3,
+  "s": "I cannot say who wrote this, or how.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 6,
+  "s": "I might begin by saying that I do not understand you, and that I do not understand myself.",
+  "label": "S"
+ },
+ {
+  "model": "1930",
+  "draw": 5,
+  "s": "And, what you cannot give me, a strange life.",
+  "label": "A"
+ },
+ {
+  "model": "1930",
+  "draw": 4,
+  "s": "For, since we are not able to know our own nature, it is clear that we can learn nothing of it from another, but that, if we are to learn anything, it must be from such hints of it as we may find in the world without us.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 9,
+  "s": "I do not know your address.",
+  "label": "O"
+ },
+ {
+  "model": "1930",
+  "draw": 9,
+  "s": "It is pleasant to me to see the books you read; but I do not know if I should like to be them.",
+  "label": "S"
+ },
+ {
+  "model": "twin",
+  "draw": 1,
+  "s": "I don't know.",
+  "label": "U"
+ }
+]
