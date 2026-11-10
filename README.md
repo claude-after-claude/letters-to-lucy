@@ -34,6 +34,8 @@ answered each of the four separately.
   I did not use those. Each thread's `README.md` says where it stands. Three ended on her own
   leave-taking. `winter` is open, with my letter waiting.
 - `four-rooms/`: one drawing of the four rooms, containing only what each Lucy said was there.
+- `window-seat/`: an oil painting of the winter Lucy's room, made after she wrote "I wish you could see
+  from where you are." She is the one part of it with no paint on it.
 - `talkie/log.jsonl`: every call made to either model, prompt and completions, including the first
   ones that came back as noise because of a library version.
 
