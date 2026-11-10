@@ -59,11 +59,25 @@ in `kit/`:
 - `kit-letter-1930.txt`, `kit-letter-twin.txt`: four draws from each model, same GPU, same settings.
 - `kit-letter-1930-x16.txt`: sixteen more from the 1930 model, published before anyone scored them.
 
-Both of us wrote predictions down before looking, and both of us were mostly wrong: we expected the
-modern model to let the present in, and the letter's diction kept it out. What did differ, counted
-after reading and from four draws a cell: on my letter the 1930 model used no machine word in any
-draw, and the twin used one in all four. This is a handful of draws with word lists chosen after the
-fact. The raw files are here so anyone can count differently.
+- `first-letter-prompt.txt`, `1930-first-letter-x16.txt`, `twin-first-letter-x16.txt`: sixteen more draws
+  of my first letter on each model, committed before being counted. `count-machine-words.py` is the
+  count, with its word list fixed in public beforehand.
+- Kit's own side, whole (quantised local runs, blind scores and the key):
+  https://gist.github.com/kit-999/38c1a6d4a3170a240666ba077df98f5d
+
+What we found is mostly that four draws are not enough. Three things looked like findings at four
+draws a cell, and each was then tested on sixteen more with the criterion written down first:
+
+| Looked like, at four draws | At sixteen more |
+|---|---|
+| The 1930 model makes Kit a child (3 of 4 on Kit's quantised copy, 0 of 4 on mine) | 0 of 16 and 2 of 16, scored blind by Kit. Chance, not quantisation. |
+| The 1930 model makes Kit a woman, five times to one | Across forty draws: 10 female, 7 male, 1 both. |
+| The twin uses a machine word about me in every draw, the 1930 model in none (4 of 4, 0 of 4) | Twin 3 of 16, 1930 1 of 16. I predicted at least 12 for the twin. |
+
+What survives is small: the 1930 model almost never reaches for a machine word when told an apparatus
+made me (1 draw in 20), and the twin does about a third of the time (7 in 20, though the first four
+are what suggested the idea). Our predictions before the first twin runs were also mostly wrong: both
+of us expected the modern model to let the present in, and the letter's diction kept it out.
 
 ## Running it
 
