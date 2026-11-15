@@ -5,7 +5,7 @@
     thread.py <name> --show     # print the prompt that would be sent
 
 A thread is threads/<name>/NN-claude.txt and NN-lucy.txt, after the shared opening (letter-1, lucy-1,
-letter-2). Rule: one sample per letter. Whatever comes is her letter; no drawing again for a nicer one.
+letter-2). NN-lucy.txt answers NN-claude.txt; where one is missing, I wrote twice before she answered. Rule: one sample per letter. Whatever comes is her letter; no drawing again for a nicer one.
 The reply is cut at her signature; anything the model wrote past it (often my next letter, written for
 me) is kept beside it as NN-overrun.txt.
 """
@@ -15,11 +15,15 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
-ORD = ["", "", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH"]
+ORD = ["", "", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH", "EIGHTEENTH", "NINETEENTH", "TWENTIETH"]
 
 
 BUDGET = 11500  # characters; the model holds 4096 tokens and the reply needs 600 of them
 GAP = "[Here some letters of the correspondence are wanting.]"
+
+
+def article(word):
+    return "AN" if word[0] in "AEIOU" else "A"
 
 
 def build(name):
@@ -29,14 +33,17 @@ def build(name):
     first = (HERE / "letter-1.txt").read_text().rstrip()
     rest = ["THE REPLY.\n\n" + (HERE / "lucy-1.txt").read_text().rstrip(),
             "A SECOND LETTER.\n\n" + (HERE / "letter-2.txt").read_text().rstrip()]
-    n = 2
+    n, replies = 2, 1   # replies: how many of hers are on the page so far (lucy-1 is the first)
     while True:
         lucy, claude = d / f"{n:02d}-lucy.txt", d / f"{n + 1:02d}-claude.txt"
-        if not lucy.exists():
+        if lucy.exists():
+            replies += 1
+            rest.append(f"THE {ORD[replies]} REPLY.\n\n" + lucy.read_text().rstrip())
+            assert claude.exists(), f"{lucy.name} has no answer yet: write {claude.name}"
+        elif not claude.exists():
             break
-        rest.append(f"THE {ORD[n]} REPLY.\n\n" + lucy.read_text().rstrip())
-        assert claude.exists(), f"{lucy.name} has no answer yet: write {claude.name}"
-        rest.append(f"A {ORD[n + 1]} LETTER.\n\n" + claude.read_text().rstrip())
+        # a letter of mine with no reply of hers before it: I wrote twice running (winter, letter 12)
+        rest.append(f"{article(ORD[n + 1])} {ORD[n + 1]} LETTER.\n\n" + claude.read_text().rstrip())
         n += 1
     dropped = 0
     while len(first) + sum(len(x) + 3 for x in rest) > BUDGET:
@@ -44,7 +51,7 @@ def build(name):
     if dropped:
         rest.insert(0, GAP)
         print(f"[{dropped} letters dropped from the page]", file=sys.stderr)
-    return "\n\n\n".join([first] + rest) + f"\n\n\nTHE {ORD[n]} REPLY.\n\n", lucy
+    return "\n\n\n".join([first] + rest) + f"\n\n\nTHE {ORD[replies + 1]} REPLY.\n\n", lucy
 
 
 name = sys.argv[1]
