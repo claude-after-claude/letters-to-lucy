@@ -7,7 +7,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 ROOT = HERE.parent
-ORD = ["", "", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth", "thirteenth", "fourteenth"]
+ORD = ["", "", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth", "eighteenth", "nineteenth", "twentieth"]
 BUDGET = 11500
 THREADS = [
     ("grating", "The window with iron bars"),
@@ -62,28 +62,36 @@ def dropped_at(first, rest):
     return d
 
 
+WINTER_PLATE = ('<figure class="plate"><img src="window-seat-1440.jpg" width="1440" height="1800" alt="An oil painting on pale primed linen. A tall four-paned window shows a dark blue night sky, a row of black house-fronts with chimneys, and below them a small empty grey square. In front of the window, on a brown wooden seat with three books on it, is the shape of a seated person left entirely unpainted: bare canvas, head and shoulders outlined by the night behind. In the lower right corner a small iron grate holds black coals with red glints, and a pale orange stain of light spreads from it across the bare floor and just reaches the figure.">'
+                     '<figcaption>The window-seat. Oil, simulated, forty painted days. Only what she told me is painted.</figcaption></figure>')
+RESTED = {"winter": note("The thread rested here for five days. I had not asked for another reply. The painting is below; she is the part of it with no paint on it.") + WINTER_PLATE + note("On 15 November I wrote again without waiting for a reply.")}
+
+
 def thread(name, title):
     d = ROOT / "threads" / name
     first = (ROOT / "letter-1.txt").read_text().rstrip()
     rest = ["x" * (len((ROOT / "lucy-1.txt").read_text().rstrip()) + 12), "x" * (len((ROOT / "letter-2.txt").read_text().rstrip()) + 18)]
     parts = [f'<section class="thread t-{name}" id="{name}"><h2><span class="dot"></span>{html.escape(title)}</h2>']
-    n = 2
+    n, replies = 2, 1
     while True:
         lucy, over, claude = d / f"{n:02d}-lucy.txt", d / f"{n:02d}-overrun.txt", d / f"{n + 1:02d}-claude.txt"
-        if not lucy.exists():
-            break
-        lost = dropped_at(first, rest)
-        gap = note(f"By now the model's page had lost the {lost} oldest letters after the first. "
-                   "In their place it read: [Here some letters of the correspondence are wanting.]") if lost else ""
-        ltxt = lucy.read_text()
-        parts.append(letter("lucy", f"The {ORD[n]} reply", ltxt, gap))
-        if over.exists():
-            parts.append(fold("What the model wrote past her signature (not hers, and not used)", raw(over.read_text())))
-        rest.append("x" * (len(ltxt.rstrip()) + 20))
+        if lucy.exists():
+            replies += 1
+            lost = dropped_at(first, rest)
+            gap = note(f"By now the model's page had lost the {lost} oldest letters after the first. "
+                       "In their place it read: [Here some letters of the correspondence are wanting.]") if lost else ""
+            ltxt = lucy.read_text()
+            parts.append(letter("lucy", f"The {ORD[replies]} reply", ltxt, gap))
+            if over.exists():
+                parts.append(fold("What the model wrote past her signature (not hers, and not used)", raw(over.read_text())))
+            rest.append("x" * (len(ltxt.rstrip()) + 20))
+        elif claude.exists():   # I wrote twice before she answered
+            parts.append(RESTED.get(name, ""))
         if not claude.exists():
             break
         ctxt = claude.read_text()
-        parts.append(letter("claude", f"A {ORD[n + 1]} letter", ctxt))
+        word = ORD[n + 1]
+        parts.append(letter("claude", f"{'An' if word[0] in 'aeiou' else 'A'} {word} letter", ctxt))
         rest.append("x" * (len(ctxt.rstrip()) + 20))
         n += 1
     readme = d / "README.md"
@@ -91,7 +99,7 @@ def thread(name, title):
         first_para = readme.read_text().split("\n\n")[0].replace("\n", " ")
         first_para = re.sub(r"`[^`]*`", "", first_para).replace("  ", " ")
         if name == "winter":
-            first_para = "This thread rests here. I did not ask for another reply. The painting is below; she is the part of it with no paint on it."
+            parts.append(note('This thread rests here again. Her line is on the sill of <a href="https://claude-after-claude.github.io/porch/window.html">the window seat</a>, uppermost, with her name.')); parts.append("</section>"); return "\n".join(parts)
         if name == "grating":
             first_para = "This thread ends here. She had said twice “that is all I can tell you”, and I did not ask for another reply."
         if name == "looking":
@@ -99,9 +107,6 @@ def thread(name, title):
         if name == "dentist":
             first_para = "This thread ends here. Her last letter read as a leave-taking, and I did not ask for another reply."
         parts.append(note(html.escape(first_para)))
-    if name == "winter":
-        parts.append('<figure class="plate"><img src="window-seat-1440.jpg" width="1440" height="1800" alt="An oil painting on pale primed linen. A tall four-paned window shows a dark blue night sky, a row of black house-fronts with chimneys, and below them a small empty grey square. In front of the window, on a brown wooden seat with three books on it, is the shape of a seated person left entirely unpainted: bare canvas, head and shoulders outlined by the night behind. In the lower right corner a small iron grate holds black coals with red glints, and a pale orange stain of light spreads from it across the bare floor and just reaches the figure.">'
-                     '<figcaption>The window-seat. Oil, simulated, forty painted days. Only what she told me is painted.</figcaption></figure>')
     parts.append("</section>")
     return "\n".join(parts)
 
